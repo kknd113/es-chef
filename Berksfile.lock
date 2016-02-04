@@ -1,8 +1,5 @@
 DEPENDENCIES
   elasticsearch
-  es
-    path: .
-    metadata: true
 
 GRAPH
   7-zip (1.0.2)
@@ -18,8 +15,6 @@ GRAPH
     ark (>= 0.0.0)
     chef-sugar (>= 0.0.0)
     yum (>= 0.0.0)
-  es (0.1.0)
-    elasticsearch (>= 2.0.0)
   windows (1.39.1)
     chef_handler (>= 0.0.0)
   yum (3.9.0)
